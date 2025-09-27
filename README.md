@@ -20,11 +20,9 @@ Here are some ideas to get you started:
 ## 👨‍💻 About Me
 I'm a passionate **Backend Developer** and **Software Engineer** with a background in **Computer Science**. I'm dedicated to solving problems and building efficient, scalable solutions. I love to learn, explore new technologies, and contribute to open-source projects.
 
-- 🌱 I’m currently learning **React** and enhancing my skills in **OOP** and **Data Structures**.
+- 🌱 I’m currently learning **AI/ML** and enhancing my skills in **OOP** and **Data Structures**.
 - 👯 I’m looking to collaborate on innovative projects that have a positive impact.
 - 💬 Ask me about **Backend Development**, **APIs**, **AWS**, and **PHP**.
-- 📫 How to reach me: [alihassan.c@outlook.com](mailto:alihassan.c@outlook.com)
-
 <!--
 ## 🚀 Projects
 Here are some of the projects I'm proud of:
