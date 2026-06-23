@@ -1,47 +1,43 @@
+# Hi, I'm Ali Hassan
 
+Senior backend engineer building multi-tenant SaaS systems, secure REST APIs, and backend architecture that holds up at production scale. 5+ years shipping systems handling real transaction volume, not toy projects.
 
-<!--### Hi there 👋
-**alihassan/alihassan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Currently:** exploring Laravel 13's first-party AI SDK and native passkey/WebAuthn support. Write-ups linked below.
 
-Here are some ideas to get you started:
+## What I actually work on
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **Multi-tenant SaaS architecture**: dynamic routing and isolation across 5-15+ concurrent tenants, role-based access per merchant, deliberately built as a modular monolith over microservices where that's the right tradeoff for the team and scale.
+- **Payments infrastructure**: led an end-to-end migration to Stripe Payment Element (cards, Apple Pay, Google Pay), with idempotent webhook handling and zero-downtime phased rollout.
+- **API security**: token and OAuth authentication via Laravel Sanctum and Passport, securing REST endpoints across multiple client deployments.
+- **Performance**: cut production reporting query times by 75-85% through index design and eliminating N+1 patterns, not guesswork.
+- **Infrastructure**: Docker-based dev-to-prod parity, so "works on my machine" stops being an explanation anyone needs.
 
-# Hi there, I'm Ali Hassan 👋
+## Stack
 
-## 👨‍💻 About Me
-I'm a passionate **Backend Developer** and **Software Engineer** with a background in **Computer Science**. I'm dedicated to solving problems and building efficient, scalable solutions. I love to learn, explore new technologies, and contribute to open-source projects.
+| Category | Technologies |
+|---|---|
+| Languages | PHP, JavaScript |
+| Frameworks | Laravel, Laminas, Vue.js, Node.js |
+| Databases | MySQL, PostgreSQL, MongoDB |
+| Auth & Security | Laravel Sanctum, Passport, JWT, OAuth2 |
+| Tools | Git, Docker, Linux |
 
-- 🌱 I’m currently learning **AI/ML** and enhancing my skills in **OOP** and **Data Structures**.
-- 👯 I’m looking to collaborate on innovative projects that have a positive impact.
-- 💬 Ask me about **Backend Development**, **APIs**, **AWS**, and **PHP**.
-<!--
-## 🚀 Projects
-Here are some of the projects I'm proud of:
+## Recent writing
 
-- **[Project Name](https://github.com/username/project-name):** A brief description of what the project does.
-- **[Another Project](https://github.com/username/another-project):** Another project with a brief description.
-- **[Yet Another Project](https://github.com/username/yet-another-project):** Another project you're proud of.
--->
-## 🛠️ Technologies & Tools
-- **Languages:** PHP, JavaScript, Python, HTML, CSS
-- **Frameworks & Libraries:** Laravel, Vue.js, Node.js
-- **Databases:** MySQL, PostgreSQL, MongoDB
-- **Tools:** Git, Docker, AWS, Jenkins, Linux
+- [Cutting Laravel Query Times by 85%: Index and N+1 Audits](https://ali.hassan.im/articles/laravel-query-performance.html)
+- [Migrating to Stripe Payment Element: Webhooks, Failure Recovery, Zero-Downtime Rollouts](https://ali.hassan.im/articles/stripe-payment-element-migration.html)
+- [Modular Monolith vs. Microservices: Why I Didn't Split This SaaS Platform Into Services](https://ali.hassan.im/articles/modular-monolith-vs-microservices.html)
+- [Authentication Done Right: JWT vs OAuth2 in Laravel APIs](https://ali.hassan.im/articles/jwt-oauth-sanctum-passport.html)
+- [Containerizing a Laravel Application: A Practical Docker Workflow](https://ali.hassan.im/articles/docker-laravel-containerization.html)
+- [Laravel 13's AI SDK: Provider-Agnostic AI Without Vendor Lock-In](https://ali.hassan.im/articles/laravel13-ai-sdk.html)
+- [Passkeys in Laravel 13: Native WebAuthn Authentication](https://ali.hassan.im/articles/laravel13-passkeys-webauthn.html)
 
-## 🌐 Connect with Me
-- [LinkedIn](https://www.linkedin.com/in/hassandot)
-- [Twitter](https://twitter.com/hassandotz)
-- [Personal Website](https://github.com/alihassan)
+*(full list and detail at [ali.hassan.im](https://ali.hassan.im))*
+
+## Find me
+
+[ali.hassan.im](https://ali.hassan.im) · [LinkedIn](https://www.linkedin.com/in/hassandot) · contact@hassan.im
 
 ---
 
-✨ _"Trying to be a part of the solution. A computer scientist by education and Programmer by default."_ ✨
+<sub>Upwork PHP Backend Developer Certified, LinkedIn PHP Skill Assessment, Top 5%</sub>
